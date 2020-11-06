@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+/*Menu*/
+.imagem-logo {
+    height: 50px ;
+    width: 80px;
+
+}
+
+.menu-top{
+    background-color: #0D7377 ;
+}
+
+
+.menu-top a{
+    color: #fff;
+}
+
+
+.main-login .row{
+    height:36rem;
+}
+
+/*Formulário de Login*/
+
+.form-bg {
+    background-color: #C3F2E2;
+}
+
+.form-radius {
+    border-radius: 6px;
+}
+
+.label-align {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.form-radius {
+    border-radius: 6px;
+}
+
+.label-align {
+    display: flex;
+    align-items: center;
+}
+
+.form-link {
+    color: rgba(21, 74, 135, 0.64);
+}
+.form-link:hover {
+    text-decoration: none;
+}
+
+.btn-entrar {
+    background-color: #0D7377;
+    border: 1px solid #0D7377;   
+    transition: background .6s ease;
+}
+.btn-entrar:hover {
+    background-color: transparent;
+    border: 1px solid #0D7377;
+    color: #0D7377;    
+}
+
+.btn-cadastrar a {
+    text-decoration: none;
+    color: white;  
+}
+.btn-cadastrar a:hover {
+    text-decoration: none;
+    color: #0D7377;      
+}
+
+.btn-cadastrar {    
+    background-color: #32E0C4;
+    border: 1px solid #32E0C4;
+    transition: background .6s ease;
+}
+.btn-cadastrar:hover {    
+    background-color: transparent;
+    border: 1px solid #32E0C4;
+}
+
+/* Tela Usuário */
+.link-sidebar{
+    color: white;
+    font-size: 1.1rem;
+}
+
+.link-sidebar:hover{
+    text-decoration: none;
+    color: rgb(19, 25, 107);
+}
+
+
+/* Tela usuario */
+.sidebar {
+    background-color: #C3F2E2;
+}
+
+.sidebar-link {
+    color: #213e3b;
+}
+
+
+.right-usuario{
+    background-color: #C3F2E2;
+}
+
+
+
+/* Tela Consulta dados */
+.table-consulta {
+    background-color: #32E0C4;
+    color: white;
+    
+};
+
